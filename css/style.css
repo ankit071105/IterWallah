@@ -14,8 +14,8 @@
 :root {
  
     --white-color: #35c4b3;
-    --shadow-color: rgba(20, 5, 40, 0.975);
-    --bg-color:  rgb(209, 47, 7);
+    --shadow-color: linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);
+    --bg-color:linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);;
     --text-color: #f7fffc;
 
     --main-color: #9c20e3;
@@ -27,11 +27,11 @@
 }
 
 .dark-mode {
-    --bg-color: #072224;
+    --bg-color:linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);;
     --text-color: #7cf5fe;
     --main-color: rgb(209, 47, 7);
     --white-color: #f3f5f6;
-    --shadow-color: rgb(6, 29, 52);
+    --shadow-color: linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);;
 }
 
 html {
@@ -40,7 +40,7 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+     background-color:var(--bg--color);
     color: var(--text-color);
 }
 
