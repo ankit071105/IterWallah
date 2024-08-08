@@ -13,12 +13,12 @@
 
 :root {
  
-    --white-color: #35c4b3;
-    --shadow-color: linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);
-    --bg-color:linear-gradient(to bottom left, #09041f 2%, #0f2944 86%);;
+    --white-color: #9abcd0;
+    --shadow-color: linear-gradient(to bottom left, #dad4f8 2%, #5487be 86%);
+    --bg-color:linear-gradient(to bottom left, #6c5abd 2%, #2c5178 86%);;
     --text-color: #f7fffc;
 
-    --main-color: #9c20e3;
+    --main-color: #4b056b;
 }
 
 *::selection {
@@ -1017,3 +1017,6 @@ border-radius: 70% 20% 35% 45%;
     }
 }
 
+span{
+    color: var( --white-color) !important;
+}
